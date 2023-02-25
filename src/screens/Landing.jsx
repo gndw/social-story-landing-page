@@ -1,25 +1,19 @@
 import React from "react";
 // Sections
-import TopNavbar from "../components/Nav/TopNavbar";
-import Header from "../components/Sections/Header";
-import Services from "../components/Sections/Services";
-import Projects from "../components/Sections/Projects";
-import Blog from "../components/Sections/Blog";
-import Pricing from "../components/Sections/Pricing";
-import Contact from "../components/Sections/Contact";
-import Footer from "../components/Sections/Footer"
+import MyTopNavbar from "../components/Nav/MyTopNavbar";
+import MyHeader from "../components/Sections/MyHeader";
+import MyServices from "../components/Sections/MyServices";
+import MyProjects from "../components/Sections/MyProjects";
+import MyFooter from "../components/Sections/MyFooter"
 
 export default function Landing() {
   return (
     <>
-      <TopNavbar />
-      <Header />
-      <Services />
-      <Projects />
-      <Blog />
-      <Pricing />
-      <Contact />
-      <Footer />
+      <MyTopNavbar />
+      <MyHeader />
+      <MyServices />
+      <MyProjects />
+      <MyFooter />
     </>
   );
 }
