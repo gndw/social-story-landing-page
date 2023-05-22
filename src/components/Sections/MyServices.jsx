@@ -4,10 +4,10 @@ import styled from "styled-components";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/add/1.png";
-import AddImage2 from "../../assets/img/add/2.png";
-import AddImage3 from "../../assets/img/add/3.png";
-import AddImage4 from "../../assets/img/add/4.png";
+import AddImage1 from "../../assets/img/cerita-medsos/285x406.png";
+import AddImage2 from "../../assets/img/cerita-medsos/197x333.png";
+import AddImage3 from "../../assets/img/cerita-medsos/112x125.png";
+import AddImage4 from "../../assets/img/cerita-medsos/197x224.png";
 
 export default function MyServices() {
   return (
@@ -61,18 +61,18 @@ export default function MyServices() {
                 <AddRightInner>
                   <div className="flexNullCenter">
                     <AddImgWrapp1 className="flexCenter">
-                      <img src={AddImage1} alt="office" />
+                      <img src={AddImage1} alt="office" width={285} height={406} />
                     </AddImgWrapp1>
                     <AddImgWrapp2>
-                      <img src={AddImage2} alt="office" />
+                      <img src={AddImage2} alt="office" width={197} height={333} />
                     </AddImgWrapp2>
                   </div>
                   <div className="flexNullCenter">
                     <AddImgWrapp3>
-                      <img src={AddImage3} alt="office" />
+                      <img src={AddImage3} alt="office" width={112} height={125} />
                     </AddImgWrapp3>
                     <AddImgWrapp4>
-                      <img src={AddImage4} alt="office" />
+                      <img src={AddImage4} alt="office" width={197} height={224} />
                     </AddImgWrapp4>
                   </div>
                 </AddRightInner>

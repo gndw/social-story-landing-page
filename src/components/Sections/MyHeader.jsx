@@ -3,7 +3,7 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";
+import HeaderImage from "../../assets/img/cerita-medsos/426x607.png";
 import Dots from "../../assets/svg/Dots";
 
 export default function MyHeader() {
@@ -22,7 +22,7 @@ export default function MyHeader() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{ zIndex: 9 }} />
+          <Img className="radius8" src={HeaderImage} alt="office" style={{ zIndex: 9 }} height={607} width={426} />
           {/* <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />

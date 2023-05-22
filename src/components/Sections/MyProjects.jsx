@@ -7,7 +7,7 @@ import FullButton from "../Buttons/FullButton";
 import ProjectImg1 from "../../assets/img/projects/1.png";
 import ProjectImg2 from "../../assets/img/projects/2.png";
 import ProjectImg3 from "../../assets/img/projects/3.png";
-import AddImage2 from "../../assets/img/add/add2.png";
+import AddImage2 from "../../assets/img/cerita-medsos/edit-426x607.png";
 
 export default function MyProjects() {
   return (
@@ -23,10 +23,10 @@ export default function MyProjects() {
           <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={ProjectImg1}
-                title="Cerita 1 (Coming Soon)"
-                text="Deskripsi cerita 1."
-                action={() => alert("clicked")}
+                img={"https://gndw.github.io/images/tata-profile.jpg"}
+                title="Cerita 1 - Salah Sambung Tata"
+                text="Seseorang bernama Tata tiba-tiba menghubungiku! Awalnya sih salah sambung, kira-kira apa yang akan terjadi setelahnya?"
+                action={() => { window.location.href = process.env.REACT_APP_REDIRECT + "/app/stories/1" }}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -34,7 +34,7 @@ export default function MyProjects() {
                 img={ProjectImg2}
                 title="Cerita 2 (Coming Soon)"
                 text="Deskripsi cerita 2."
-                action={() => alert("clicked")}
+              // action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -42,7 +42,7 @@ export default function MyProjects() {
                 img={ProjectImg3}
                 title="Cerita 3 (Coming Soon)"
                 text="Deskripsi cerita 3."
-                action={() => alert("clicked")}
+              // action={() => alert("clicked")}
               />
             </div>
           </div>
