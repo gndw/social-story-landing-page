@@ -33,7 +33,7 @@ export default function MyProjects() {
               <ProjectBox
                 img={ProjectImg2}
                 title="Cerita 2 (Coming Soon)"
-                text="Deskripsi cerita 2."
+              // text="Deskripsi cerita 2."
               // action={() => alert("clicked")}
               />
             </div>
@@ -41,14 +41,14 @@ export default function MyProjects() {
               <ProjectBox
                 img={ProjectImg3}
                 title="Cerita 3 (Coming Soon)"
-                text="Deskripsi cerita 3."
+              // text="Deskripsi cerita 3."
               // action={() => alert("clicked")}
               />
             </div>
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title="Load More" action={() => alert("clicked")} />
+              {/* <FullButton title="Load More" action={() => alert("clicked")} /> */}
             </div>
           </div>
         </div>
