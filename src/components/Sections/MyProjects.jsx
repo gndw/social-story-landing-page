@@ -4,7 +4,7 @@ import styled from "styled-components";
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import ProjectImg1 from "../../assets/img/projects/1.png";
+// import ProjectImg1 from "../../assets/img/projects/1.png";
 import ProjectImg2 from "../../assets/img/projects/2.png";
 import ProjectImg3 from "../../assets/img/projects/3.png";
 import AddImage2 from "../../assets/img/cerita-medsos/edit-426x607.png";
@@ -71,8 +71,8 @@ export default function MyProjects() {
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "190px" }}>
-                  {/* <FullButton title="Main Sekarang" action={() => { window.location.href = process.env.REACT_APP_REDIRECT }} /> */}
-                  <FullButton title="Coming Soon" />
+                  <FullButton title="Baca Sekarang (BETA)" action={() => { window.location.href = "./how-to-edit" }} />
+                  {/* <FullButton title="Coming Soon" /> */}
                 </div>
               </ButtonsRow>
             </AddRight>

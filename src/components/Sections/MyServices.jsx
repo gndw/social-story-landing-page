@@ -36,7 +36,7 @@ export default function MyServices() {
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
-                title="Membuat Cerita (Coming Soon)"
+                title="Membuat Cerita (BETA)"
                 subtitle="Ingin membuat cerita impianmu sendiri? Kamu dapat membuat ceritamu sendiri dan dimainkan oleh banyak orang."
               />
             </ServiceBoxWrapper>
